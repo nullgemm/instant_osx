@@ -1,0 +1,2 @@
+	-drive id=SystemDisk,if=none,file=disk_catalina.qcow2 \
+	-device ide-hd,bus=sata.4,drive=SystemDisk \
