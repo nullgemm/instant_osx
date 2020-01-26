@@ -1,5 +1,5 @@
 # Instant Catalina
-[macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM), TL;DR version.
+TL;DR version of [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM).
 Only for ArchLinux, does not clone the whole repo, creates a 25G system disk.
 
 ```
@@ -7,7 +7,7 @@ Only for ArchLinux, does not clone the whole repo, creates a 25G system disk.
 ```
 
 ## Installation
-Only KVM and bootdisk creation are automated, the installation itself is not.
+Only the VM and bootdisk creation are automated, the installation itself is not.
 Here is how to proceed in order to get a working setup as quickly as possible.
 
 After the installation program has booted you must format your system disk
