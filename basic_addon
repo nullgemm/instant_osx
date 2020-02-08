@@ -1,4 +1,4 @@
-	-drive id=SystemDisk,if=none,file=disk_catalina.qcow2 \
+	-drive id=SystemDisk,if=none,file=disk_osx.qcow2 \
 	-device ide-hd,bus=sata.4,drive=SystemDisk \
 	-drive id=ExtraDisk,if=none,file=disk_extra.qcow2 \
 	-device ide-hd,bus=sata.5,drive=ExtraDisk \

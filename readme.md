@@ -1,9 +1,9 @@
-# Instant Catalina
+# Instant OSX
 TL;DR version of [macOS-Simple-KVM](https://github.com/foxlet/macOS-Simple-KVM).
 Only for ArchLinux, does not clone the whole repo, creates a 25G system disk.
 
 ```
-./instant_catalina.sh
+./instant_osx.sh
 ```
 
 ## Installation
@@ -14,7 +14,7 @@ After the installation program has booted you must format your system disk
  - select "Disk Utility"
  - select *the topmost* "QEMU HARDDISK MEDIA"
  - select "Erase" (they mean "Format")
- - choose "disk_catalina" as the name
+ - choose "disk_osx" as the name
  - choose "MacOS Extended (Journaled)" as the filesystem format
  - choose "GUID Partition Map" as the partition table format
  - select "Erase"
@@ -26,11 +26,11 @@ Now you can safely install OS X
  - select "Continue"
  - wait (if an error occurs just try again, it's not *that* stable)
  - accept the terms
- - select "disk_catalina" as the target system disk
+ - select "disk_osx" as the target system disk
  - select "Install" OS X
  - wait (if an error occurs just try again, it's not *that* stable)
 
 ## Start
 ```
-./start_catalina.sh
+./start_osx.sh
 ```
